@@ -1,1 +1,6 @@
-# actividad_unidad2_desarrollo_de_software_udc
+# CEA 14: ZOOLOGICO
+Se realizo la actividad de aprendizaje en base al caso de estudio asignado # 14
+
+#TECNOLOGIAS
+
+El proyecto se realizo utilizando el JDK de java 21, maven y se utilizo JUnit 5 para realizar los test
