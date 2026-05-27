@@ -13,4 +13,7 @@ public record CapacidadVisitantes(int capacidad) {
     public String toString() {
         return capacidad + " visitantes";
     }
+    public boolean permiteGrupo(int cantidadVisitantes) {
+        throw new UnsupportedOperationException("Unimplemented method 'permiteGrupo'");
+    }
 }
