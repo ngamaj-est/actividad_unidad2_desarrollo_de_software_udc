@@ -44,7 +44,6 @@ public class Especie {
         this.habitats = new HashSet<>();
     }
 
-    // Métodos de negocio
     public void actualizarDescripcion(String nuevaDescripcion) {
         if (nuevaDescripcion == null || nuevaDescripcion.isBlank()) {
             throw new EspecieException("La descripción no puede estar vacía");
