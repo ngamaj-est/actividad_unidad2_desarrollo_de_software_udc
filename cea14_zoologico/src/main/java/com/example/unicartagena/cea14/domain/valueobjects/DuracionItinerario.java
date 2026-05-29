@@ -24,4 +24,8 @@ public record DuracionItinerario(int minutos) {
         }
         return horas() + "h  " + minutosRestantes() + "m";
     }
+
+    public boolean esMayorQueHoras(int duracionMinima) {
+        throw new UnsupportedOperationException("Unimplemented method 'esMayorQueHoras'");
+    }
 }
