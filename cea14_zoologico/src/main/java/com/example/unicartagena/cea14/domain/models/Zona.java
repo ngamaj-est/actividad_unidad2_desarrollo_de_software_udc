@@ -8,7 +8,6 @@ import com.example.unicartagena.cea14.domain.exceptions.ZonaException;
 import com.example.unicartagena.cea14.domain.valueobjects.EspecieId;
 import com.example.unicartagena.cea14.domain.valueobjects.ExtensionTerreno;
 import com.example.unicartagena.cea14.domain.valueobjects.ZonaId;
-// Entidad Zona que representa las zonas del zoologico.
 public class Zona {
     private final ZonaId id;
     private String nombre;

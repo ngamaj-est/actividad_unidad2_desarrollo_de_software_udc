@@ -11,14 +11,8 @@ import com.example.unicartagena.cea14.domain.valueobjects.EspecieId;
 
 import com.example.unicartagena.cea14.domain.enums.TiposDeExamenMedicos;
 
-/**
- * Servicio de Dominio: Gestiona la programación de exámenes médicos
- */
 public class ProgramacionExamenesService {
 
-    /**
-     * Crea un programa completo de exámenes para una especie
-     */
     public List<ExamenMedico> crearProgramaAnual(EspecieId especieId, 
                                                   LocalDateTime fechaInicio) {
         if (especieId == null) {
@@ -29,8 +23,7 @@ public class ProgramacionExamenesService {
         }
 
         List<ExamenMedico> programa = new ArrayList<>();
-
-        // Chequeo físico trimestral (4 veces al año)
+            
         for (int i = 0; i < 4; i++) {
             programa.add(new ExamenMedico(
                 especieId,
@@ -38,21 +31,15 @@ public class ProgramacionExamenesService {
                 fechaInicio.plusMonths(3L * i)
             ));
         }
-
-        // Análisis de sangre semestral (2 veces al año)
         programa.add(new ExamenMedico(especieId, TiposDeExamenMedicos.ANALISIS_SANGRE, fechaInicio));
         programa.add(new ExamenMedico(especieId, TiposDeExamenMedicos.ANALISIS_SANGRE, 
                                       fechaInicio.plusMonths(6)));
 
-        // Evaluación dental anual
         programa.add(new ExamenMedico(especieId, TiposDeExamenMedicos.REVISION_DENTAL, fechaInicio));
 
         return programa;
     }
 
-    /**
-     * Determina la frecuencia recomendada de exámenes según el tipo
-     */
     public int obtenerFrecuenciaDias(TiposDeExamenMedicos tipoExamen) {
         return switch (tipoExamen) {
             case ESTADO_FISICO -> 90;        // Cada 3 meses
@@ -63,9 +50,6 @@ public class ProgramacionExamenesService {
         };
     }
 
-    /**
-     * Valida si un examen está próximo a vencer (menos de 7 días)
-     */
     public boolean estaProximoAVencer(ExamenMedico examen) {
         if (examen == null || examen.isCompletado()) {
             return false;
@@ -78,9 +62,6 @@ public class ProgramacionExamenesService {
                examen.getFechaProgramada().isAfter(ahora);
     }
 
-    /**
-     * Calcula la próxima fecha para un examen según su frecuencia
-     */
     public LocalDateTime calcularProximaFecha(TiposDeExamenMedicos tipoExamen, LocalDateTime ultimaFecha) {
         int diasFrecuencia = obtenerFrecuenciaDias(tipoExamen);
         
