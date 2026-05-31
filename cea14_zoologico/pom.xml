@@ -16,8 +16,8 @@
     </properties>
 
     <dependencies>
-    <!-- JUnit 5 -->
-    <dependency>
+        <!-- JUnit 5 -->
+        <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
         <version>5.10.1</version>
