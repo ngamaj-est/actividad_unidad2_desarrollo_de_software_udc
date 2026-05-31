@@ -15,9 +15,14 @@ public record NombreCientificoEspecies(String genero, String especie) {
             throw new IllegalArgumentException("La especie debe comenzar con minúscula");
         }
     }
+    public String nombreCompleto() {
+        return getNombreCompleto();
+    }
+
     public String getNombreCompleto() {
         return genero + " " + especie;
     }
+
     @Override
     public String toString() {
         return getNombreCompleto();

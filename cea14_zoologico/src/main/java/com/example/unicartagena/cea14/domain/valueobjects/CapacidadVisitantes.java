@@ -1,5 +1,7 @@
 package com.example.unicartagena.cea14.domain.valueobjects;
 
+import com.example.unicartagena.cea14.domain.exceptions.CapacidadException;
+
 public record CapacidadVisitantes(int capacidad) {
     public CapacidadVisitantes {
         if (capacidad < 0) {
@@ -13,7 +15,12 @@ public record CapacidadVisitantes(int capacidad) {
     public String toString() {
         return capacidad + " visitantes";
     }
-    public boolean permiteGrupo(int cantidadVisitantes) {
-        throw new UnsupportedOperationException("Unimplemented method 'permiteGrupo'");
+    public void permiteGrupo(int cantidadVisitantes) {
+        if (cantidadVisitantes > capacidad) {
+            throw new CapacidadException(
+                "La cantidad de visitantes (" + cantidadVisitantes + 
+                ") excede la capacidad máxima (" + capacidad + ")"
+            );
+        }
     }
 }

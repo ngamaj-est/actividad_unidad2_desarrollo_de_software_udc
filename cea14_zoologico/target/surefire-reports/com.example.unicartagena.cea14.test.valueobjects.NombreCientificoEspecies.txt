@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------
+Test set: com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.071 s <<< FAILURE! - in com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies
+com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.debeFallarConEspecieNula  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import com.example.unicartagena.cea14.domain.valueobjects.NombreCientificoEspecies conflicts with a type defined in the same file
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The method genero() is undefined for the type NombreCientificoEspecies
+	The method especie() is undefined for the type NombreCientificoEspecies
+	The method nombreCompleto() is undefined for the type NombreCientificoEspecies
+	The constructor NombreCientificoEspecies(null, String) is undefined
+	The constructor NombreCientificoEspecies(String, null) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+
+	at com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.<init>(NombreCientificoEspecies.java:4)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.debeCrearNombreCientificoValido  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import com.example.unicartagena.cea14.domain.valueobjects.NombreCientificoEspecies conflicts with a type defined in the same file
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The method genero() is undefined for the type NombreCientificoEspecies
+	The method especie() is undefined for the type NombreCientificoEspecies
+	The method nombreCompleto() is undefined for the type NombreCientificoEspecies
+	The constructor NombreCientificoEspecies(null, String) is undefined
+	The constructor NombreCientificoEspecies(String, null) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+
+	at com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.<init>(NombreCientificoEspecies.java:4)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.debeFallarSiEspecieNoIniciaConMinuscula  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import com.example.unicartagena.cea14.domain.valueobjects.NombreCientificoEspecies conflicts with a type defined in the same file
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The method genero() is undefined for the type NombreCientificoEspecies
+	The method especie() is undefined for the type NombreCientificoEspecies
+	The method nombreCompleto() is undefined for the type NombreCientificoEspecies
+	The constructor NombreCientificoEspecies(null, String) is undefined
+	The constructor NombreCientificoEspecies(String, null) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+
+	at com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.<init>(NombreCientificoEspecies.java:4)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.debeSerIgualSiTienenMismoGeneroYEspecie  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import com.example.unicartagena.cea14.domain.valueobjects.NombreCientificoEspecies conflicts with a type defined in the same file
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The method genero() is undefined for the type NombreCientificoEspecies
+	The method especie() is undefined for the type NombreCientificoEspecies
+	The method nombreCompleto() is undefined for the type NombreCientificoEspecies
+	The constructor NombreCientificoEspecies(null, String) is undefined
+	The constructor NombreCientificoEspecies(String, null) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+
+	at com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.<init>(NombreCientificoEspecies.java:4)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.debeFallarConGeneroNulo  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import com.example.unicartagena.cea14.domain.valueobjects.NombreCientificoEspecies conflicts with a type defined in the same file
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The method genero() is undefined for the type NombreCientificoEspecies
+	The method especie() is undefined for the type NombreCientificoEspecies
+	The method nombreCompleto() is undefined for the type NombreCientificoEspecies
+	The constructor NombreCientificoEspecies(null, String) is undefined
+	The constructor NombreCientificoEspecies(String, null) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+
+	at com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.<init>(NombreCientificoEspecies.java:4)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.debeFallarSiGeneroNoIniciaConMayuscula  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The import com.example.unicartagena.cea14.domain.valueobjects.NombreCientificoEspecies conflicts with a type defined in the same file
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The method genero() is undefined for the type NombreCientificoEspecies
+	The method especie() is undefined for the type NombreCientificoEspecies
+	The method nombreCompleto() is undefined for the type NombreCientificoEspecies
+	The constructor NombreCientificoEspecies(null, String) is undefined
+	The constructor NombreCientificoEspecies(String, null) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+	The constructor NombreCientificoEspecies(String, String) is undefined
+
+	at com.example.unicartagena.cea14.test.valueobjects.NombreCientificoEspecies.<init>(NombreCientificoEspecies.java:4)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

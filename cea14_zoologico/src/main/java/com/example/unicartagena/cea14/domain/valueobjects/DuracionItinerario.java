@@ -26,8 +26,7 @@ public record DuracionItinerario(int minutos) {
     }
 
     public boolean esMayorQueHoras(int duracionMinima) {
-        return this.minutos > duracionMinima * 60;
+        return this.minutos >= duracionMinima * 60;
     }
 
-    
 }

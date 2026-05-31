@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import com.example.unicartagena.cea14.domain.exceptions.CapacidadException;
 import com.example.unicartagena.cea14.domain.exceptions.ItinerarioExceptions;
 import com.example.unicartagena.cea14.domain.valueobjects.CapacidadVisitantes;
 import com.example.unicartagena.cea14.domain.valueobjects.ItinerarioId;
@@ -78,13 +77,7 @@ public class Itinerario {
     }
 
     public void validarCapacidad(int cantidadVisitantes) {
-        if (!capacidadMaxima.permiteGrupo(cantidadVisitantes)) {
-            throw new CapacidadException(
-                "La cantidad de visitantes (" + cantidadVisitantes + 
-                ") excede la capacidad máxima del itinerario (" + 
-                capacidadMaxima.capacidad() + ")"
-            );
-        }
+        capacidadMaxima.permiteGrupo(cantidadVisitantes);
     }
 
     public void actualizarDuracion(DuracionItinerario nuevaDuracion) {
