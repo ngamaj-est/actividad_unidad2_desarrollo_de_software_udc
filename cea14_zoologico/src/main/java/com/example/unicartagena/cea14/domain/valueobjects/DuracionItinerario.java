@@ -26,6 +26,8 @@ public record DuracionItinerario(int minutos) {
     }
 
     public boolean esMayorQueHoras(int duracionMinima) {
-        throw new UnsupportedOperationException("Unimplemented method 'esMayorQueHoras'");
+        return this.minutos > duracionMinima * 60;
     }
+
+    
 }

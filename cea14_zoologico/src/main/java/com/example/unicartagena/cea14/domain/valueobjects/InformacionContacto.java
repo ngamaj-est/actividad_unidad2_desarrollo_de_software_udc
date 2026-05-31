@@ -11,8 +11,6 @@ public record InformacionContacto(String telefono, String email) {
         if (!telefono.matches("^[0-9\\-\\+\\s()]+$")) {
             throw new IllegalArgumentException("El teléfono no es válido");
         }
-        if (!email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$")) {
-            throw new IllegalArgumentException("El email no es válido");
-        }
+        
     }
 }

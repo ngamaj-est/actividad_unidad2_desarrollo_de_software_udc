@@ -9,6 +9,9 @@ public record ExtensionTerreno(Double metrosCuadrados) {
             throw new IllegalArgumentException("La extensión del terreno no puede ser mayor a 100,000 metros cuadrados");
         }
     }
+    public ExtensionTerreno(int i) {
+        this((double) i);
+    }
     @Override
     public String toString() {
         return metrosCuadrados + " m²";
