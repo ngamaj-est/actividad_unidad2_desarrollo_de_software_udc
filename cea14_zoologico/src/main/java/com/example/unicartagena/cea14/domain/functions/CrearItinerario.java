@@ -4,7 +4,7 @@ import com.example.unicartagena.cea14.domain.factory.ItinerarioFactory;
 import com.example.unicartagena.cea14.domain.valueobjects.ZonaId;
 
 public class CrearItinerario {
-    public static void ejemploCrearItinerario() {
+    public static void registrarItinerario() {
         System.out.println("=== Crear Itinerario ===");
         
         var itinerario = ItinerarioFactory.builder()

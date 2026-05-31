@@ -1,32 +1,25 @@
 package com.example.unicartagena.cea14;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.util.List;
 
-import com.example.unicartagena.cea14.domain.enums.TiposDeClima;
-import com.example.unicartagena.cea14.domain.enums.TiposDeVegetacion;
-import com.example.unicartagena.cea14.domain.factory.EspecieFactory;
-import com.example.unicartagena.cea14.domain.factory.ItinerarioFactory;
-import com.example.unicartagena.cea14.domain.models.Cuidador;
-import com.example.unicartagena.cea14.domain.models.ExamenMedico;
-import com.example.unicartagena.cea14.domain.models.Guia;
-import com.example.unicartagena.cea14.domain.models.Habitat;
-import com.example.unicartagena.cea14.domain.models.Zona;
-import com.example.unicartagena.cea14.domain.services.ProgramacionExamenesService;
-import com.example.unicartagena.cea14.domain.specifications.ItinerarioGrupoPequeñoSpecs;
-import com.example.unicartagena.cea14.domain.specifications.ItinerarioLargaDuracionSpecs;
-import com.example.unicartagena.cea14.domain.valueobjects.CuidadorId;
-import com.example.unicartagena.cea14.domain.valueobjects.EspecieId;
-import com.example.unicartagena.cea14.domain.valueobjects.ExtensionTerreno;
-import com.example.unicartagena.cea14.domain.valueobjects.GuiaId;
-import com.example.unicartagena.cea14.domain.valueobjects.HabitatId;
-import com.example.unicartagena.cea14.domain.valueobjects.InformacionContacto;
-import com.example.unicartagena.cea14.domain.valueobjects.ItinerarioId;
-import com.example.unicartagena.cea14.domain.valueobjects.ZonaId;
-
+import com.example.unicartagena.cea14.domain.functions.*;
 public class Main {
     public static void main(String[] args) {
+        //CASO 1: Crear una especie
+        CrearEspecieFunc.CrearEspecie();
+        //CASO 2: Crean una zona con especies
+        CrearZonaConEspecieFunc.CrearZonaConEspecies();
+        //CASO 3: Crear un habitat
+        CrearHabitat.RegistrarUnHabitat();
+        //CASO 4: Crear un itinerario
+        CrearItinerario.registrarItinerario();
+        //CASO 5: Asignar a un Guia
+        AsignarGuia.AsignarGuiaItinerario();
+        //CASO 6: Asignar a un Cuidador
+        AsignarCuidador.AsignarCuidadorEspecie();
+        //Caso 7: Programar examenes medicos para las especies
+        ProgramarExamenesEspecies.ProgramarExamenes();
+        //Caso 8: Utilizar las specifications para validar la informacion
+        UseSpecifications.UsarSpecifications();
+
     }
 }   
