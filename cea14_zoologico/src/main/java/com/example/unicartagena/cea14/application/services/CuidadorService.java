@@ -1,9 +1,9 @@
 package com.example.unicartagena.cea14.application.services;
 
-import com.example.unicartagena.cea14.application.mappers.CuidadorMapper;
-import com.example.unicartagena.cea14.application.ports.out.CuidadorOutPort;
-import com.example.unicartagena.cea14.application.dto.CuidadorDTO;
 import com.example.unicartagena.cea14.application.ports.in.CuidadorInPort;
+import com.example.unicartagena.cea14.application.ports.out.CuidadorOutPort;
+import com.example.unicartagena.cea14.application.services.dto.CuidadorDTO;
+import com.example.unicartagena.cea14.application.services.mappers.CuidadorMapper;
 import com.example.unicartagena.cea14.domain.valueobjects.CuidadorId;
 
 import java.util.List;

@@ -1,14 +1,13 @@
-package com.example.unicartagena.cea14.application.mappers;
+package com.example.unicartagena.cea14.application.services.mappers;
+import java.util.List;
+import java.util.stream.Collectors;
 
-import com.example.unicartagena.cea14.application.dto.ItinerarioDTO;
+import com.example.unicartagena.cea14.application.services.dto.ItinerarioDTO;
 import com.example.unicartagena.cea14.domain.models.Itinerario;
 import com.example.unicartagena.cea14.domain.valueobjects.CapacidadVisitantes;
 import com.example.unicartagena.cea14.domain.valueobjects.DuracionItinerario;
 import com.example.unicartagena.cea14.domain.valueobjects.ItinerarioId;
 import com.example.unicartagena.cea14.domain.valueobjects.ZonaId;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 public final class ItinerarioMapper {
     private ItinerarioMapper() {}

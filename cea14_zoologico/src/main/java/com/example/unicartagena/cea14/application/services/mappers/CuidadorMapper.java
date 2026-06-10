@@ -1,6 +1,6 @@
-package com.example.unicartagena.cea14.application.mappers;
+package com.example.unicartagena.cea14.application.services.mappers;
 
-import com.example.unicartagena.cea14.application.dto.CuidadorDTO;
+import com.example.unicartagena.cea14.application.services.dto.CuidadorDTO;
 import com.example.unicartagena.cea14.domain.models.Cuidador;
 import com.example.unicartagena.cea14.domain.valueobjects.CuidadorId;
 import com.example.unicartagena.cea14.domain.valueobjects.InformacionContacto;

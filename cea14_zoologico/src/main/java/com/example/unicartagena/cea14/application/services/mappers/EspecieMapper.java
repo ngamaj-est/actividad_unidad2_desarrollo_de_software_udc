@@ -1,15 +1,16 @@
-package com.example.unicartagena.cea14.application.mappers;
+package com.example.unicartagena.cea14.application.services.mappers;
 
-import com.example.unicartagena.cea14.application.dto.EspecieDTO;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import com.example.unicartagena.cea14.application.services.dto.EspecieDTO;
 import com.example.unicartagena.cea14.domain.models.Especie;
 import com.example.unicartagena.cea14.domain.valueobjects.EspecieId;
 import com.example.unicartagena.cea14.domain.valueobjects.HabitatId;
 import com.example.unicartagena.cea14.domain.valueobjects.NombreCientificoEspecies;
 import com.example.unicartagena.cea14.domain.valueobjects.ZonaId;
-
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public final class EspecieMapper {
 

@@ -1,5 +1,5 @@
 package com.example.unicartagena.cea14.infrastructure.entrypoint.desktop.cli;
 
-public class ZoologicoManagement {
+public class ZoologicoManagementCli {
 
 }

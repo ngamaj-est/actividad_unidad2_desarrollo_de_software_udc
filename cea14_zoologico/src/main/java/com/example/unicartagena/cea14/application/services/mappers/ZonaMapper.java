@@ -1,6 +1,6 @@
-package com.example.unicartagena.cea14.application.mappers;
+package com.example.unicartagena.cea14.application.services.mappers;
 
-import com.example.unicartagena.cea14.application.dto.ZonaDTO;
+import com.example.unicartagena.cea14.application.services.dto.ZonaDTO;
 import com.example.unicartagena.cea14.domain.models.Zona;
 import com.example.unicartagena.cea14.domain.valueobjects.ExtensionTerreno;
 import com.example.unicartagena.cea14.domain.valueobjects.ZonaId;
