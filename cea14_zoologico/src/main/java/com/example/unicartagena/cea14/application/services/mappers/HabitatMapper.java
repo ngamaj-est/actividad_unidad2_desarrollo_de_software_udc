@@ -1,7 +1,7 @@
 package com.example.unicartagena.cea14.application.mappers;
 
-import com.example.unicartagena.cea14.application.dto.HabitatDTO;
 import com.example.unicartagena.cea14.domain.models.Habitat;
+import com.example.unicartagena.cea14.application.dto.HabitatDTO;
 import com.example.unicartagena.cea14.domain.enums.TiposDeClima;
 import com.example.unicartagena.cea14.domain.enums.TiposDeVegetacion;
 import com.example.unicartagena.cea14.domain.valueobjects.HabitatId;

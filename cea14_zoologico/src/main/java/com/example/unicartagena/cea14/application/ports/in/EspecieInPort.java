@@ -1,9 +1,9 @@
 package com.example.unicartagena.cea14.application.ports.in;
 
-import com.example.unicartagena.cea14.application.dto.EspecieDTO;
-
 import java.util.List;
 import java.util.Optional;
+
+import com.example.unicartagena.cea14.application.dto.EspecieDTO;
 
 public interface EspecieInPort {
     void guardar(EspecieDTO dto);
