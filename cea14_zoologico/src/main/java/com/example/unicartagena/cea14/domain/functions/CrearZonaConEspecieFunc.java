@@ -14,16 +14,11 @@ public class CrearZonaConEspecieFunc {
         var zona = new Zona(zonaId, "Sabana Africana", extension);
         
         // Crear varias especies
-        var leon = EspecieFactory.crear("León", "Panthera", "leo", 
-            "Rey de la selva", zonaId);
-        var cebra = EspecieFactory.crear("Cebra", "Equus", "quagga",
-            "Équido rayado", zonaId);
-        var jirafa = EspecieFactory.crear("Jirafa", "Giraffa", "camelopardalis",
-            "Mamífero de cuello largo", zonaId);
+        var serpiente = EspecieFactory.crear("Serpíente", "Python", "regius", 
+            "Gran serpiente africana", zonaId);
         
-        zona.agregarEspecie(leon.getId());
-        zona.agregarEspecie(cebra.getId());
-        zona.agregarEspecie(jirafa.getId());
+        zona.agregarEspecie(serpiente.getId());
+        
         
         System.out.println("Zona: " + zona.getNombre());
         System.out.println("Extensión: " + zona.getExtension());

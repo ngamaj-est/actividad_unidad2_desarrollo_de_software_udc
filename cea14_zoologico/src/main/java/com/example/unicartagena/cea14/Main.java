@@ -20,6 +20,5 @@ public class Main {
         ProgramarExamenesEspecies.ProgramarExamenes();
         //Caso 8: Utilizar las specifications para validar la informacion
         UseSpecifications.UsarSpecifications();
-
     }
 }   

@@ -9,8 +9,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.example.unicartagena.cea14.domain.models.ExamenMedico;
-import com.example.unicartagena.cea14.domain.services.ProgramacionExamenesService;
 import com.example.unicartagena.cea14.domain.valueobjects.EspecieId;
+import com.example.unicartagena.cea14.application.services.ProgramacionExamenesService;
 import com.example.unicartagena.cea14.domain.enums.TiposDeExamenMedicos;
 
 class ProgramacionExamenesServiceTest {

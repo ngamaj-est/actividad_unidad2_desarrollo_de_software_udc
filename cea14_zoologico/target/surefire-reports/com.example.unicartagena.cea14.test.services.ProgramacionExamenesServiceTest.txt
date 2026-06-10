@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: com.example.unicartagena.cea14.test.services.ProgramacionExamenesServiceTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.example.unicartagena.cea14.test.services.ProgramacionExamenesServiceTest
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.088 s <<< FAILURE! - in com.example.unicartagena.cea14.test.services.ProgramacionExamenesServiceTest
+com.example.unicartagena.cea14.test.services.ProgramacionExamenesServiceTest.debeCrearProgramaAnualCompleto  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting size of:
+  [ExamenMedico{id='f9be7761-03a3-4131-bc18-f99ba04e1480', tipoExamen=Chequeo Físico Completo, fechaProgramada=2026-06-04T02:19:14.437628770, completado=false},
+    ExamenMedico{id='d9fbfae0-d967-47fb-ad13-f97441c021ae', tipoExamen=Análisis de Sangre, fechaProgramada=2026-06-04T02:19:14.437628770, completado=false},
+    ExamenMedico{id='48fd726b-dfa3-41e5-99fe-5994754853b5', tipoExamen=Análisis de Heces, fechaProgramada=2026-12-04T02:19:14.437628770, completado=false},
+    ExamenMedico{id='e1542a35-d141-4e76-9622-a91c26bbeaf7', tipoExamen=Evaluación Dental, fechaProgramada=2026-06-04T02:19:14.437628770, completado=false}]
+to be greater than 5 but was 4
+	at com.example.unicartagena.cea14.test.services.ProgramacionExamenesServiceTest.debeCrearProgramaAnualCompleto(ProgramacionExamenesServiceTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
