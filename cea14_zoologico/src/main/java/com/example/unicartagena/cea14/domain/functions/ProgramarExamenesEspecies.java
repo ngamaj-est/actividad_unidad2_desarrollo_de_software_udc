@@ -3,8 +3,8 @@ package com.example.unicartagena.cea14.domain.functions;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import com.example.unicartagena.cea14.application.services.ProgramacionExamenesService;
 import com.example.unicartagena.cea14.domain.models.ExamenMedico;
-import com.example.unicartagena.cea14.domain.services.ProgramacionExamenesService;
 import com.example.unicartagena.cea14.domain.valueobjects.EspecieId;
 
 public class ProgramarExamenesEspecies {

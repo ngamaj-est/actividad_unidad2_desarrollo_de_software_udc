@@ -10,15 +10,15 @@ public class CrearEspecieFunc {
         
         var zonaId = ZonaId.generate();
         
-        var leon = EspecieFactory.builder()
-            .conNombreEspanol("León")
-            .conNombreCientifico("Panthera", "leo")
-            .conDescripcion("Gran felino africano, conocido como el rey de la selva")
+        var serpiente = EspecieFactory.builder()
+            .conNombreEspanol("Serpíente")
+            .conNombreCientifico("Python", "regius")
+            .conDescripcion("Gran serpiente africana, conocida por su tamaño y fuerza")
             .enZona(zonaId)
             .build();
         
-        System.out.println("Especie creada: " + leon);
-        System.out.println("Nombre científico: " + leon.getNombreCientifico());
+        System.out.println("Especie creada: " + serpiente.getNombreEspanol());
+        System.out.println("Nombre científico: " + serpiente.getNombreCientifico());
         System.out.println();
     }
 
