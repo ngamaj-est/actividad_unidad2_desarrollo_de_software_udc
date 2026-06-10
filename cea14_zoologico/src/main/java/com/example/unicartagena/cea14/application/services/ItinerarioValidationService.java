@@ -1,13 +1,15 @@
 package com.example.unicartagena.cea14.application.services;
 
+import com.example.unicartagena.cea14.application.ports.in.ItinerarioValidationInPort;
 import com.example.unicartagena.cea14.domain.exceptions.ItinerarioExceptions;
 import com.example.unicartagena.cea14.domain.models.Itinerario;
 import com.example.unicartagena.cea14.domain.models.Zona;
 
 import java.util.List;
 
-public class ItinerarioValidationService {
+public class ItinerarioValidationService implements ItinerarioValidationInPort {
 
+    @Override
     public boolean validarDuracionPorZonas(Itinerario itinerario, List<Zona> zonas) {
         if (itinerario == null) {
             throw new ItinerarioExceptions("El itinerario no puede ser nulo");
@@ -24,6 +26,7 @@ public class ItinerarioValidationService {
         return duracionMinutos >= duracionMinimaRequerida;
     }
 
+    @Override
     public int calcularEspeciesVisitables(Itinerario itinerario, List<Zona> zonas) {
         if (itinerario == null || zonas == null) {
             return 0;
@@ -35,6 +38,7 @@ public class ItinerarioValidationService {
             .sum();
     }
 
+    @Override
     public boolean validarCapacidadParaEspecies(Itinerario itinerario) {
         if (itinerario == null) {
             return false;
