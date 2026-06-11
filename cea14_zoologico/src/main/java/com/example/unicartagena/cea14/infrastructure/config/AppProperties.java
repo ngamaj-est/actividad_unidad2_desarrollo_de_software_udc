@@ -15,9 +15,7 @@ public final class AppProperties {
     this(AppProperties.class.getClassLoader().getResourceAsStream(PROPERTIES_FILE));
   }
 
-  // Package-private — test entry point: inject null to simulate file-not-found,
-  // a failing stream to simulate IOException, or a valid stream for the happy path.
-  AppProperties(final InputStream stream) {
+   AppProperties(final InputStream stream) {
     this.properties = doLoad(stream);
   }
 
