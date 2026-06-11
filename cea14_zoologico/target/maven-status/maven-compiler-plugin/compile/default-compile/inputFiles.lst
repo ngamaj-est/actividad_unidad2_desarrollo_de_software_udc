@@ -12,6 +12,8 @@
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/domain/models/Habitat.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/application/services/mappers/ZonaMapper.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/domain/exceptions/CapacidadException.java
+/home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/infrastructure/cli/DB.java
+/home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/infrastructure/cli/ConsoleCLI.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/domain/valueobjects/GuiaId.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/application/ports/out/CuidadorOutPort.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/domain/events/CuidadorAsignadoEvent.java
@@ -62,6 +64,7 @@
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/application/services/ProgramacionExamenesService.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/domain/functions/AsignarGuia.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/application/ports/in/EspecieInPort.java
+/home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/infrastructure/config/DatabaseConfig.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/domain/valueobjects/ItinerarioId.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/infrastructure/entrypoint/desktop/dto/UpdateZonaRequest.java
 /home/Hanezawita/Dev/projects_uni/actividad_unidad2_desarrollo_de_software_udc/cea14_zoologico/src/main/java/com/example/unicartagena/cea14/domain/models/Cuidador.java
